@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f7f4ea;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: #15814b;
+  text-align: center;
+  line-height: 1.25;
+}
+
+h1{
+    font-size: 36px;
+    
+}
+
+p {
+  line-height: 1.5;
+  font-size: 32px;
+  color: #15814b;
+  
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.container{
+    padding: 50px 0; 
+}
+
+.row {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.textcolor{
+    color: #e6a365;
+}
+
+section:nth-child(even)
+{
+    background-color: #edeeab;
+}
+
+.sectiontitle{
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION BAR*/
+
+nav {
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinkslist {
+  display: flex;
+}
+
+.navlinkanchor {
+  margin: 0 12px;
+  color: #15814b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navlinkanchorprimary {
+  background-color: #e6a365;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white;
+  transition: all 300ms ease;
+}
+
+.navlinkanchorprimary:hover {
+  background-color: #15814b;
+}
+
+.logo {
+  font-size: 24px;
+  color: #e6a365;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+/* ABOUT ME*/
+
+#about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutmeinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutmeinfocontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aboutmepicturemask {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 16 rgba(0,0,0, .16);
+  margin-bottom: 8px;
+}
+
+.aboutmepicture {
+  width: 100%;
+
+  /* IMPROVING MY PIC*/
+  transform: scale(2);
+  padding-right: 8px;
+}
+
+.aboutmeinfopara{
+    font-size: 20px;
+    margin-bottom: 28px;
+    
+}
+
+.aboutmeinfotitle{
+    margin-bottom: 16px;
+}
+
+.aboutmelink{
+    font-size: 20px;
+    color: #e6a365;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+.aboutmeimgcontainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.aboutmeimg{
+    width: 100%;
+    margin-top: 24px;
+    transform: scale(.75);
+    
+}
+
+
+/* TECH STACK*/
+
+.languageimg{
+    width: 100%;
+    max-width: 100px;
+    transition: all 300ms;
+    transform: scale(.80);
+    margin-bottom: 16px;
+}
+
+.language:hover .languageimg{
+    filter: brightness(80%);
+    opacity: .86;
+    transform: scale(.9);
+
+}
+
+.language{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.language:hover .languagename{
+    transform: scale(1);
+}
+
+.languagename{
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    font-size: 20px;
+    color: #e6a365;
+}
+
+
+.languageimgwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 32px 24px;
+}
+
+.languagelist{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* NAVIGATION BAR*/
