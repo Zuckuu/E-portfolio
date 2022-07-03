@@ -39,7 +39,7 @@ a {
   transition: opacity 300ms ease;
 }
 
-a:hover{
+i:hover{
   opacity: .7;
 }
 
